@@ -69,6 +69,7 @@ body{
     font-size: 2rem;
     font-family: var(--fonte-principal);
     text-align: center;
+    padding-bottom: 10px;
 }
 
 .apresentacao-conteudo-titulo-destaque{
@@ -84,7 +85,6 @@ body{
 .apresentacao-conteudo-texto-sobre-mim{
     font-family: var(--fonte-principal);
     text-align: justify;
-
 }
 
 .apresentacao-conteudo-secundario{
@@ -149,28 +149,4 @@ body{
     font-family: var(--fonte-principal);
     font-size: 1.5rem;
     font-weight: 400;
-}
-
-@media (max-width: 1200px){
-
-    .cabecalho{
-        padding: 6%;
-    }
-
-    .cabecalho-menu{
-        justify-content: center;
-    }
-
-    .apresentacao{
-        flex-direction: column-reverse;
-        padding: 5%;
-    }
-
-    .apresentacao-link{
-        gap: 0px;
-    }
-
-    .apresentacao-conteudo{
-        width: 100%;
-    }
 }
