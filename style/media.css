@@ -14,12 +14,13 @@
     }
 
     .apresentacao-link {
-        gap: 0px;
+        gap: 1px;
     }
 
     .apresentacao-links {
         flex-direction: column;
         align-items: center;
+        padding: 1px;
     }
 
     .apresentacao-conteudo {
