@@ -60,6 +60,11 @@ body{
     gap: 20px;
 }
 
+.apresentacao-conteudo-sobre-mim{
+    width: 100%;
+    font-size: 1.18rem;
+}
+
 .apresentacao-conteudo-titulo{
     font-size: 2rem;
     font-family: var(--fonte-principal);
@@ -74,6 +79,12 @@ body{
     font-size: 1.5rem;
     font-family: var(--fonte-principal);
     text-align: justify;
+}
+
+.apresentacao-conteudo-texto-sobre-mim{
+    font-family: var(--fonte-principal);
+    text-align: justify;
+
 }
 
 .apresentacao-conteudo-secundario{
@@ -103,7 +114,7 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 16px;
+    gap: 10px;
     border: 2px solid var(--cor-terciaria);
     font-size: 1.5rem;
     border-radius: 8px;
@@ -153,6 +164,10 @@ body{
     .apresentacao{
         flex-direction: column-reverse;
         padding: 5%;
+    }
+
+    .apresentacao-link{
+        gap: 0px;
     }
 
     .apresentacao-conteudo{
